@@ -29,7 +29,6 @@ public class Journal {
 	
 	@ManyToOne
 	@JoinColumn(name="PUBLISHER_ID")
-	@NotNull
 	private User publisher;
 
 	@Version
